@@ -1,7 +1,7 @@
 import Home from "../Home";
 import About from "../About";
 import Contact from "../Contact";
-import Dropdown from "../Dropdown";
+// import Dropdown from "../Dropdown";
 import Portfolio from "../Portfolio";
 import Services from "../Services";
 
@@ -22,11 +22,7 @@ const routes=[
         name:"Contact",
         component:Contact
     },
-    {
-        path:"/dropdown",
-        name:"Dropdown",
-        component:Dropdown
-    },
+
     {
         path:"/portfolio",
         name:"Portfolio",
@@ -38,3 +34,4 @@ const routes=[
         component:Services
     }
 ]
+export default routes

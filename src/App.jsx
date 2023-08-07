@@ -4,7 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
-import Dropdown from "./Dropdown";
+// import Dropdown from "./Dropdown";
 import Contact from "./Contact";
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
           <About />
           <Services />
           <Portfolio />
-          <Dropdown />
           <Contact />
           <a
             href="https://www.google.com"
